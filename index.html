@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Halloween</title>
+
+        <!-- favicon --> 
+        <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png" data-mce-href="img/favicon/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png" data-mce-href="img/favicon/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png" data-mce-href="img/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png" data-mce-href="img/favicon/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png" data-mce-href="img/favicon/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png" data-mce-href="img/favicon/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png" data-mce-href="img/favicon/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png" data-mce-href="img/favicon/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png" data-mce-href="img/favicon/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png" sizes="192x192" data-mce-href="img/favicon/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96" data-mce-href="img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" data-mce-href="img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" href="img/favicon/favicon-24x24.png" sizes="24x24" data-mce-href="img/favicon/favicon-24x24.png">
+        <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" data-mce-href="img/favicon/favicon-16x16.png">
+        
+        <!--Fonts-->
+        <link rel="stylesheet" href="fonts/Open_Sans/stylesheet.css">
+        <link rel="stylesheet" href="fonts/Oswald/oswald.css">
+        <link rel="stylesheet" href="fonts/Font_Awesome/css/all.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,500,600,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet"> 
+    
+        <!--Styles-->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/social.css">
+        <link rel="stylesheet" href="css/lettering.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/tada.css">
+        <link rel="stylesheet" href="css/font-awesome-animation.min.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/style_sliding.css">
+        <link rel="stylesheet" href="css/style_typography.css">
+        <link rel="stylesheet" href="css/modal.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+        <!--font awesome web-->
+        <!-- <script src="https://kit.fontawesome.com/d0beec8f33.js" crossorigin="anonymous"></script> -->
+    </head>
+    <body>
+        <!-- header -->
+        <header class="header">
+            <!-- aside navigation buttons -->
+            <div class="social-wrapper">
+                <!-- To top button -->
+                <div id="toTop" class="toTop">
+                    <div class="icon-box">
+                        <a href="#" class="fa-stack fa-2x color-mail">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fas fa-chevron-up fa-stack-1x fa-inverse"></i>
+                        </a> 
+                    </div>      
+                </div>
+                <!-- aside hide buttons -->
+                <div class="social-hide">
+                    <div class="icon-box">
+                        <a href="#phone" class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
+                        </a>
+                    </div>
+                    <div class="icon-box">
+                        <a href="#clock" class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="far fa-clock fa-stack-1x fa-inverse"></i>
+                        </a>
+                    </div>
+                    <div class="icon-box">
+                        <a href="#marker" class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fas fa-map-marker-alt fa-stack-1x fa-inverse"></i>
+                        </a>
+                    </div>
+                    <div class="icon-box">
+                        <a href="#mail" class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="icon-box audio-controls">
+                    <div class="hidden">
+                        <a id="audio-play" class="fa-stack fa-2x far fa-play-circle" data-type="audio-control">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="far fa-play-circle fa-stack-1x fa-inverse"></i>
+                        </a>
+                    </div>
+                    <div class="hidden">
+                        <a id="audio-pause" class="fa-stack fa-2x far fa-pause-circle" data-type="audio-control">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="far fa-pause-circle fa-stack-1x fa-inverse"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <audio id="audioTrack" class="audioElement" src="audio/fairy_tail.mp3" controls></audio>
+            
+            <div class="wrapper title">
+                <h1 id="word" data-hover="Очень ждем на нашем празднике" class="animated fadeInLeftBig">приглашаем отметить <br>самый ужас-с-сный праздник</h1>
+                <p class="animated fadeInRightBig">отпразднуй Хеллоуин вместе с нами</p>
+            </div>
+
+            <!-- header slide show -->
+            <div class="header-slider">
+                <div>
+                    <img src="img/header_slideshow/01.png" alt="1">
+                </div>
+                <div>
+                    <img src="img/header_slideshow/02.png" alt="2">
+                </div>
+                <div>
+                    <img src="img/header_slideshow/03.png" alt="3">
+                </div>
+                <div>
+                    <img src="img/header_slideshow/04.png" alt="4">
+                </div>
+                <div>
+                    <img src="img/header_slideshow/05.png" alt="5">
+                </div>
+                <div>
+                    <img src="img/header_slideshow/06.png" alt="6">
+                </div>
+                <div>
+                    <img src="img/header_slideshow/07.png" alt="7">
+                </div>
+                <div>
+                    <img src="img/header_slideshow/08.png" alt="8">
+                </div>
+                <div>
+                    <img src="img/header_slideshow/09.png" alt="9">
+                </div>
+                <div>
+                    <img src="img/header_slideshow/10.png" alt="10">
+                </div>
+                <div>
+                    <img src="img/header_slideshow/11.png" alt="11">
+                </div>
+            </div>
+        </header> 
+
+        <main>
+            <!-- party -->
+            <section class="party">
+                <!-- stat -->
+                <div class="wrapper wrapper-grey">
+                    <div class="stat">
+                        <div class="stat-item">
+                            <h2>2</h2>
+                            <h3>дня</h3>
+                            <p>веселья</p>
+                        </div>
+                        <div class="stat-item">
+                            <h2>15</h2>
+                            <h3>групп</h3>
+                            <p>на сцене</p>
+                        </div>
+                        <div class="stat-item">
+                            <h2>3</h2>
+                            <h3>сцены</h3>
+                            <p>для артистов</p>
+                        </div>
+                        <div class="stat-item">
+                            <h2>80</h2>
+                            <h3>площадь</h3>
+                            <p>зала</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- project -->
+                <div class="wrapper project">
+                    <h2>
+                        праздники, которые мы организовали
+                    </h2>
+                    <div class="box-party">
+                        <div class="party-block animated fadeInLeftBig">
+                            <img src="img/party/party.png" alt="party">
+                            <h3>
+                                Старый Новый Год
+                            </h3>
+                        </div>
+
+                        <div class="party-block animated fadeInUpBig">
+                            <img src="img/party/party2.png" alt="party2">
+                            <h3>
+                                день святого Валентина
+                            </h3>
+                        </div>
+
+                        <div class="party-block animated fadeInRightBig">
+                            <img src="img/party/party3.png" alt="party3">
+                            <h3>
+                                день студенчества
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- request -->
+            <section class="request">
+                <div class="wrapper">
+                    <div>
+                        <h2>ЛУЧШИЕ ПРАЗДНИКИ</h2>
+                        <p class="request-text">РЕАЛИЗУЕМ САМЫЕ СМЕЛЫЕ ИДЕИ</p>
+                    </div>
+                    <button>
+                        <!-- &#128386; ваш запрос -->
+                        <div class="faa-parent animated-hover">
+                            <i class="far fa-envelope faa-shake"></i>
+                            <p>ваш запрос</p>
+                        </div>
+                    </button>
+                </div>
+            </section>
+
+            <!-- services -->
+            <section class="services">
+                <div class="wrapper">
+                    <h2>Что будет на хеллоуине?</h2>
+                    <div class="grid">
+                        <div class="grid-item grid-one">
+                            <img src="img/icons/pumpkin.svg" alt="pumpkin">     
+                            <h4>СОБРАННЫЕ<br>ТЫКВЫ</h4>         
+                        </div>
+                        <div class="grid-item grid-two">
+                            <img src="img/icons/candle.svg" alt="candle">     
+                            <h4>МИСТИЧЕСКАЯ<br>АТРИБУТИКА</h4>         
+                        </div>
+                        <div class="grid-item grid-three">
+                            <img src="img/icons/monster.svg" alt="monster">     
+                            <h4>ТЕМАТИЧЕСКИЕ<br>КОСТЮМЫ</h4>         
+                        </div>
+                        <div class="grid-item grid-four">
+                            <img src="img/icons/wand.svg" alt="wand">     
+                            <h4>МНОЖЕСТВО<br>КВЕСТОВ</h4>         
+                        </div>
+                        <div class="grid-item grid-five">
+                            <img src="img/icons/poison.svg" alt="poison">     
+                            <h4>ШВЕДСКИЙ<br>СТОЛ</h4>         
+                        </div>
+                        <div class="grid-item grid-six">
+                            <img src="img/icons/ghost.svg" alt="ghost">     
+                            <h4>СМЕШНЫЕ<br>КОНКУРСЫ</h4>         
+                        </div>
+                    </div>
+                </div>       
+            </section>
+
+            <!-- portfolio -->
+            <section class="portfolio">
+                <div class="grid-photo">
+                    <div class="grid-photo-item">
+                        <a data-fancybox="gallery" href="img/portfolio/portfolio.png">
+                            <img src="img/portfolio/portfolio.png" alt="portfolio">
+                        </a>
+                    </div>
+                    <div class="grid-photo-item">
+                        <a data-fancybox="gallery" href="img/portfolio/portfolio2.png">
+                            <img src="img/portfolio/portfolio2.png" alt="portfolio2">
+                        </a>
+                    </div>
+                    <div class="grid-photo-item">
+                        <a data-fancybox="gallery" href="img/portfolio/portfolio3.png">
+                            <img src="img/portfolio/portfolio3.png" alt="portfolio3">
+                        </a>
+                    </div>
+                    <div class="grid-photo-item">
+                        <a data-fancybox="gallery" href="img/portfolio/portfolio4.png">
+                            <img src="img/portfolio/portfolio4.png" alt="portfolio4">
+                        </a>
+                    </div>
+                    <div class="grid-photo-item">
+                        <a data-fancybox="gallery" href="img/portfolio/portfolio5.png">
+                            <img src="img/portfolio/portfolio5.png" alt="portfolio5">
+                        </a>
+                    </div>
+                    <div class="grid-photo-item">
+                        <a data-fancybox="gallery" href="img/portfolio/portfolio6.png">
+                            <img src="img/portfolio/portfolio6.png" alt="portfolio6">
+                        </a>
+                    </div>
+                    <div class="grid-photo-item">
+                        <a data-fancybox="gallery" href="img/portfolio/portfolio7.png">
+                            <img src="img/portfolio/portfolio7.png" alt="portfolio7">
+                        </a>
+                    </div>
+                    <div class="grid-photo-item">
+                        <a data-fancybox="gallery" href="img/portfolio/portfolio8.png">
+                            <img src="img/portfolio/portfolio8.png" alt="portfolio8">
+                        </a>
+                    </div>
+                    <span class="close"></span>
+                </div>
+            </section>
+
+            <!-- reviews -->
+            <section class="reviews">
+                <div class="wrapper">
+                    <h2>отзывы ПОСЕТИТЕЛЕЙ</h2>
+                    <div class="box-feedback slick-slider">
+                        <div class="box-feedback-item">
+                            <p class="feedback">Это было, пожалуй, лучшее мероприятие из всех, на которых я была. Отличная музыка и интерьер. Не пожалела, что позвала своих другей. Мы отлично провели время и я обязательно приду на следущие мероприятия. Не сомневайтесь, будет весело.</p>
+                            <p class="name">Анастасия Звягинцева</p>
+                        </div>
+                        <div class="box-feedback-item">
+                            <p class="feedback">Долго думал: стоит идти или нет. В последний момент решился и не пожалел. Участвовал в конкурсах, получил множество подарков, бонусов и даже бонусную карту в магазин DNS. В следующем году тоже пойду и приведу своих друзей.</p>
+                            <p class="name">Валерий Атлетов</p>
+                        </div>
+                        <div class="box-feedback-item">
+                            <p class="feedback">Самый мистический день в году хочется провести как-то по особенному... Искал мероприятия и наткнулся на этот сайт. Изучив локацию, программу и прочее, решил выбрать именно их. Это лучшее решение! Зовите сюда всех своих друзей и подруг!</p>
+                            <p class="name">Максим Семенов</p>
+                        </div>
+                        <div class="box-feedback-item">
+                            <p class="feedback">Это было, пожалуй, лучшее мероприятие из всех, на которых я была. Отличная музыка и интерьер. Не пожалела, что позвала своих другей. Мы отлично провели время и я обязательно приду на следущие мероприятия. Не сомневайтесь, будет весело.</p>
+                            <p class="name">Анастасия Звягинцева</p>
+                        </div>
+                        <div class="box-feedback-item">
+                            <p class="feedback">Долго думал: стоит идти или нет. В последний момент решился и не пожалел. Участвовал в конкурсах, получил множество подарков, бонусов и даже бонусную карту в магазин DNS. В следующем году тоже пойду и приведу своих друзей.</p>
+                            <p class="name">Валерий Атлетов</p>
+                        </div>
+                        <div class="box-feedback-item">
+                            <p class="feedback">Самый мистический день в году хочется провести как-то по особенному... Искал мероприятия и наткнулся на этот сайт. Изучив локацию, программу и прочее, решил выбрать именно их. Это лучшее решение! Зовите сюда всех своих друзей и подруг!</p>
+                            <p class="name">Максим Семенов</p>
+                        </div>
+                    </div>
+                </div>       
+            </section>
+
+            <!-- request -->
+            <section class="request">
+                <div class="wrapper">
+                    <div>
+                        <h2>ХОТИТЕ К НАМ?</h2>
+                        <p class="request-text">ОСТАВЬ ЗАЯВКУ ПЕРЕД ПОСЕЩЕНИЕМ</p>
+                    </div>
+                    <button>
+                        <!-- &#128386; ваш запрос -->
+                        <div class="faa-parent animated-hover">
+                            <i class="far fa-envelope faa-shake"></i>
+                            <p>ваш запрос</p>
+                        </div>
+                    </button>
+                </div>
+            </section>
+
+            <!-- contacts -->
+            <section class="contacts">
+                <div class="wrapper">
+                    <h2>контакты</h2>
+                    <div class="contacts-block">
+                        <div class="faa-parent animated-hover" id="marker">
+                            <a href="#" class="modal faa-parent animated-hover">
+                                <i class="fas fa-map-marker-alt faa-flash" title="find us"></i>
+                            </a>
+                            <div id="modal_form">
+                                <span id="modal_close">закрыть</span>
+                            </div>
+                            <div id="overlay">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.1419332938112!2d30.36655221609671!3d59.92978698187301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631bb92b2b7f5%3A0xfc6c3540c8fb3df8!2z0J3QtdCy0YHQutC40Lkg0L_RgC4sIDE0MCwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsINCg0L7RgdGW0Y8sIDE5MTAzNg!5e0!3m2!1suk!2sua!4v1588337133174!5m2!1suk!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                            <h3>АДРЕС:</h3>
+                            <p>НЕВСКИЙ ПРОСПЕКТ 140,<br>ОФИС 140-142</p>
+                        </div>
+                        <div class="faa-parent animated-hover" id="phone">
+                            <i class="fas fa-phone faa-flash" title="call us"></i>
+                            <h3>ТЕЛЕФОН:</h3>
+                            <p>8 (812) 111-22-33<br>8 (812) 111-22-33</p>
+                        </div>
+                        <div class="faa-parent animated-hover" id="clock">
+                            <i class="far fa-clock faa-flash" title="visit us"></i>
+                            <h3>ВРЕМЯ РАБОТЫ:</h3>
+                            <p>ПН-СБ<br>10:00 - 20:00</p>
+                        </div>
+                        <div class="faa-parent animated-hover" id="mail">
+                            <i class="far fa-envelope faa-flash" title="mail us"></i>
+                            <h3>E-MAIL:</h3>
+                            <a href="mailto:INFO@VIP.RU">INFO@VIP.RU</a><br>
+                            <a href="mailto:SUPPORT@VIP.RU">SUPPORT@VIP.RU</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+ 
+        
+        <!-- footer -->
+        <footer class="footer">
+            <div class="wrapper footer-box">
+                <p><a href="http://tpverstak.ru/super-start" target="blank">&copy; 2020 Праздники с душой</a></p>
+                <p>Сайт реализовал <a href="mailto:sens78@gmail.com">SeNS</a></p>
+            </div>
+        </footer>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper1.14.7.min.js"></script>
+        <script src="js/tooltip.js"></script>
+        <script src="js/slick.js"></script>
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script> 
+        <script src="js/jquery.hoverwords.js"></script>  
+        <script src="js/jquery.lettering.js"></script> 
+        <script src="js/modernizr.custom.79639.js"></script> 
+        <script src="js/audio.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

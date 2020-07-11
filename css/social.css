@@ -1,0 +1,88 @@
+.social-wrapper {
+	font-size: 12px;
+	/* height: 120px; */
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	align-items: center;
+	justify-content: center;
+	top: calc(50% - 220px);
+	left: 20px;
+	z-index: 10;
+}
+
+.icon-box {
+	height: 70px;
+	width: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.social-wrapper .fa-stack {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.fa-instagram:before {
+	top: -1px;
+	position: relative;
+}
+
+.social-wrapper a {
+	transition: 0.2s ease-in;
+	opacity: 0.6;
+	/* color: #3B5998; */
+	/* color: #33CCFF; */
+	color: #4074b5;
+}
+
+.social-wrapper a:hover {
+	font-size: 2.8em;
+	color: #40ec14;
+	opacity: 1;
+}
+ 
+
+.music-wrapper a {
+	transition: 0.2s ease-in;
+	opacity: 1;
+}
+
+.music-wrapper a:hover {
+	font-size: 2.8em;
+	color: #40ec14;
+} */
+
+.toTop {
+	font-size: 12px;
+	/* height: 120px; */
+	display: flex;
+	position: fixed;
+	align-items: center;
+	justify-content: center;
+	/* top: calc(50% - 35px); */
+	right: 20px;
+	z-index: 10;
+}
+
+/*To Top Button*/
+#toTop {
+	cursor: pointer;
+	display: none;
+	color: #fff;
+  }
+
+  .social-hide {
+	  display: none;
+  }
+
+  .hidden {
+	display: none;
+}
+
+.audioElement {
+	display: none;
+}
