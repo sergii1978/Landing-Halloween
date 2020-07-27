@@ -500,7 +500,7 @@ h1 + p {
 
 @media screen and (max-width: 992px){
   .wrapper {
-    max-width: 800px;
+    max-width: 700px;
   }
 
   .title {
@@ -519,14 +519,14 @@ h1 + p {
   }
 
   .stat {
-    max-width: 700px;
+    max-width: 600px;
     margin: -90px auto 0;
     padding-top: 5px;
     padding-bottom: 20px;
   }
 
   .stat-item h2 {
-    font-size: 62px;
+    font-size: 50px;
     line-height: 70px;
     padding-top: 5px;
 }
@@ -547,7 +547,7 @@ h1 + p {
   }
 
   .party h3 {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .services {
